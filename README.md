@@ -1,4 +1,6 @@
-### Hi there 👋
+### ThreatSA
+
+The source code for ThreatSA: Network Situation Assessement Based on Threats Propagation.
 
 <!--
 **ThreatSA/ThreatSA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
