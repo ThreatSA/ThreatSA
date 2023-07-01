@@ -33,7 +33,7 @@ def time_diff(traffic_dataframe,start_time,time_range):
     return result
 
 '''
-traffic_graph_generation fuction
+traffic_graph_generation function
 -------------------------
 This function is used to generate malicious traffic graph
 #Arguments
@@ -59,7 +59,7 @@ def traffic_graph_generation(traffic_data):
     return G
 
 '''
-cent_node_find fuction
+cent_node_find function
 -------------------------
 This function is used to find the central nodes in the graph
 #Arguments
@@ -77,7 +77,7 @@ def cent_node_find(G,prop):
     return cent_node
 
 '''
-one_path_connect fuction
+one_path_connect function
 -------------------------
 This function is used to calculate the intimacy of a single path from central node to normal node
 #Arguments
@@ -95,7 +95,7 @@ def one_path_connect(G,path):
     return con
 
 '''
-Intimacy_calculate fuction
+Intimacy_calculate function
 -------------------------
 This function is used to calculate the intimacy between central node and normal node
 #Arguments
@@ -115,7 +115,7 @@ def Intimacy_calculate(G,cen_node,target_node):
     return avg_con
 
 '''
-all_process fuction
+all_process function
 -------------------------
 This function is the whole process of ThreatSA for situation assessment in a certain sampling period
 #Arguments
@@ -144,7 +144,7 @@ def all_process(G,prop):
     return Intimacy_dict
 
 '''
-Intimacy_calculate fuction
+Intimacy_calculate function
 -------------------------
 #Arguments
     data_path: the csv file path of labeled traffic data
