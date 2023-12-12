@@ -1,10 +1,10 @@
 Intimacy analysis is essentially a mathematical method in which there is only one adjustable parameter, the attenuation factor. Therefore, we have analyzed the effect of attenuation factor on intimacy and the results are as follows:
 
-|  | Header 2 | Header 3 |
-|----------|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+|  | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 |
+|----------|----------|----------|----------|----------|----------|----------|----------|----------|-----------|
+| UNSW-NB15    |          |          |          |          |          |          |          |          |           |
+| MSCAD    |          |          |          |          |          |          |          |          |           |
+
 
 
 From the experimental results, it can be seen that the attenuation factor has less influence on the evaluation results, and the accuracy is higher than 97.5% on the UNSW dataset, and higher than 99% on the MSCAD dataset, both of which achieve optimal results when the attenuation factor is 0.4 or 0.5. 
