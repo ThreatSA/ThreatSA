@@ -1,6 +1,6 @@
 Intimacy analysis is essentially a mathematical method in which there is only one adjustable parameter, the attenuation factor. Therefore, we have analyzed the effect of attenuation factor on intimacy and the results are as follows:
 
-| Header 1 | Header 2 | Header 3 |
+|  | Header 2 | Header 3 |
 |----------|----------|----------|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
